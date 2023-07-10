@@ -1,0 +1,124 @@
+body h1{
+    text-align: center;
+    text-shadow: 5px 10px 10px #000;
+}
+.container{
+    height : 70vh;
+    width : 60%;
+   
+    margin-left: 20%;
+}
+
+.child {
+    height : auto;
+    width : 65%;
+   
+    margin-left: 20%;
+    display: flex;
+    padding-top: 1%;
+    
+
+}
+.child input{
+    width : 70%;
+    height : 50px;
+    font-size: x-large;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    background-color: whitesmoke;
+  
+
+  
+}
+
+.child input:focus{
+    outline: none;
+}
+.child div{
+
+    height : 12.5%;
+    width : 10%;
+    background-color: whitesmoke;
+    padding: 1%;
+   
+
+
+}
+.left{
+
+    border-top-left-radius: 10px;
+  
+
+}
+
+.right {
+    border-top-right-radius: 10px;
+  
+
+}
+.left img{
+    margin-left: 9%;
+}
+
+.right img{
+    margin-left: 19%;
+    cursor: pointer;
+}
+
+.child div img{
+    height: 90%;
+    width : 80%;
+ 
+    
+}
+
+.todos{
+    width : 61.5%;
+    height : auto;
+    border: 1px solid black;
+    margin-left: 20%;
+    background-color: whitesmoke;
+    border: 0.5px solid whitesmoke;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  
+   
+}
+
+.todo_child{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+    margin-bottom: 20px;
+    
+}
+
+.todo_child span{
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width : 50%;
+}
+
+.todo_child input{
+    height: 20px;
+    width : 20px;
+}
+
+
+.todo_child img{
+    height : 30px;
+    width : 30px;
+    cursor: pointer;
+}
+.todos span{
+    margin-left : 5%;
+    font-weight: 600;
+}
+
+.edit{
+    text-decoration: line-through;
+}
+
+
+
+
